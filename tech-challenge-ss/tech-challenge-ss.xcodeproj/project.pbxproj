@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		346488A722F3C13D00984A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346488A622F3C13D00984A65 /* AppDelegate.swift */; };
-		346488A922F3C13D00984A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346488A822F3C13D00984A65 /* ViewController.swift */; };
 		346488AC22F3C13D00984A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346488AA22F3C13D00984A65 /* Main.storyboard */; };
 		346488AE22F3C13E00984A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346488AD22F3C13E00984A65 /* Assets.xcassets */; };
 		346488B122F3C13E00984A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346488AF22F3C13E00984A65 /* LaunchScreen.storyboard */; };
 		346488BC22F3C13E00984A65 /* tech_challenge_ssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346488BB22F3C13E00984A65 /* tech_challenge_ssTests.swift */; };
 		346488C722F3C13E00984A65 /* tech_challenge_ssUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346488C622F3C13E00984A65 /* tech_challenge_ssUITests.swift */; };
+		346488D622F3CBA100984A65 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346488D522F3CBA100984A65 /* EventsTableViewController.swift */; };
+		346488D922F3CEBC00984A65 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346488D822F3CEBC00984A65 /* Event.swift */; };
 		57F9282D5AD9617FFF47A665 /* Pods_tech_challenge_ssUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1556F9E0C8048A07E16687B2 /* Pods_tech_challenge_ssUITests.framework */; };
 		91870CD5C2518D66E2C25756 /* Pods_tech_challenge_ss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F14533B2B79337AFAF5C49 /* Pods_tech_challenge_ss.framework */; };
 		E1D18EC942ADE194B22A56D5 /* Pods_tech_challenge_ssTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7527C2AE930C37C0CC9AC /* Pods_tech_challenge_ssTests.framework */; };
@@ -42,7 +43,6 @@
 		18D7527C2AE930C37C0CC9AC /* Pods_tech_challenge_ssTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tech_challenge_ssTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346488A322F3C13D00984A65 /* tech-challenge-ss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tech-challenge-ss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		346488A622F3C13D00984A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		346488A822F3C13D00984A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		346488AB22F3C13D00984A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		346488AD22F3C13E00984A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346488B022F3C13E00984A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		346488C222F3C13E00984A65 /* tech-challenge-ssUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tech-challenge-ssUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		346488C622F3C13E00984A65 /* tech_challenge_ssUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tech_challenge_ssUITests.swift; sourceTree = "<group>"; };
 		346488C822F3C13E00984A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346488D522F3CBA100984A65 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		346488D822F3CEBC00984A65 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		54911F5856546402EDAB3812 /* Pods-tech-challenge-ss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tech-challenge-ss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tech-challenge-ss/Pods-tech-challenge-ss.debug.xcconfig"; sourceTree = "<group>"; };
 		94F14533B2B79337AFAF5C49 /* Pods_tech_challenge_ss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tech_challenge_ss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EF7AF14D98CE2543A254C9 /* Pods-tech-challenge-ssTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tech-challenge-ssTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tech-challenge-ssTests/Pods-tech-challenge-ssTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +116,9 @@
 		346488A522F3C13D00984A65 /* tech-challenge-ss */ = {
 			isa = PBXGroup;
 			children = (
+				346488D722F3CEA900984A65 /* Models */,
+				346488D422F3CB7000984A65 /* Controllers */,
 				346488A622F3C13D00984A65 /* AppDelegate.swift */,
-				346488A822F3C13D00984A65 /* ViewController.swift */,
 				346488AA22F3C13D00984A65 /* Main.storyboard */,
 				346488AD22F3C13E00984A65 /* Assets.xcassets */,
 				346488AF22F3C13E00984A65 /* LaunchScreen.storyboard */,
@@ -140,6 +143,22 @@
 				346488C822F3C13E00984A65 /* Info.plist */,
 			);
 			path = "tech-challenge-ssUITests";
+			sourceTree = "<group>";
+		};
+		346488D422F3CB7000984A65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				346488D522F3CBA100984A65 /* EventsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		346488D722F3CEA900984A65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				346488D822F3CEBC00984A65 /* Event.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		5FEF9BF86D07EB01D3BDB6F9 /* Pods */ = {
@@ -379,7 +398,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				346488A922F3C13D00984A65 /* ViewController.swift in Sources */,
+				346488D622F3CBA100984A65 /* EventsTableViewController.swift in Sources */,
+				346488D922F3CEBC00984A65 /* Event.swift in Sources */,
 				346488A722F3C13D00984A65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
